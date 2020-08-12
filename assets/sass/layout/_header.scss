@@ -1,0 +1,36 @@
+.header__profile{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+padding: 1.5rem 3rem 1.5rem 3rem;
+border-bottom: 1px solid gray;
+align-items: center;
+
+.header__profile__img img{
+    border-radius: 300px;
+    width: 60px;
+    height: 60px;
+}
+
+.headder__profile__followers{
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p{
+    margin-bottom: 0;
+}
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right:0;
+  }
+  
+  .container-fluid img{
+    width: 100vw;
+    height: auto;
+    max-height:300px;
+  }
+  

@@ -1,0 +1,28 @@
+.header__profile__buttons{
+  display: none;
+}
+.main{
+    justify-content: left;
+  }
+@media (min-width: 768px) {
+  body { 
+    margin: 0 auto;}
+    .header__profile__buttons{
+      display: block;
+    }
+    
+
+  
+}
+
+@media (min-width: 1200px) {
+  body {
+    
+    margin: 0 auto;
+  }
+}
+
+
+
+
+

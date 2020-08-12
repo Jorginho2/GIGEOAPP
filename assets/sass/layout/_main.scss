@@ -1,0 +1,47 @@
+/* LAYOUT: MAIN
+   ========================================================================== */
+/* Base */
+.main {
+  padding: 2rem 3rem 2rem 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: centerx;
+}
+
+
+main {
+  text-align: center;
+  .main__title{
+    font-weight: bold;
+  }
+  .card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.5rem;
+  }
+  .card-body {
+    text-align: left;
+  }
+  .card-text {
+    padding: 0;
+    text-align: left;
+  }
+  .card-title{
+    font-weight: bold;
+  }
+.card{
+  width: 250px;
+  box-sizing: border-box;
+  display: inline-grid;
+}
+  p {
+    padding-left: 5em;
+    padding-right: 5em;
+
+    span {
+      font-weight: $bold;
+    }
+  }
+}
+
